@@ -20,4 +20,33 @@
         android:inputType="textEmailAddress"/>
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="8글자 이상, 특수문자 포함"
+        android:inputType="textPassword"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임 "/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="한줄로 입력"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
+
+
+
 </LinearLayout>
